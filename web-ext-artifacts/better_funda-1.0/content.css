@@ -1,0 +1,17 @@
+.search-result-price {
+	animation: bf-marker-price 0.1s 1;
+}
+@keyframes bf-marker-price { to { outline-color: inherit } }
+
+
+.bf-sqm-price {
+	color: gray;
+}
+
+.bf-sqm-price::before {
+	display: inline-block;
+	content: "●";
+	font-size: 0.625em;
+	margin-inline-start: .5em;
+	margin-inline-end: .5em;
+}
